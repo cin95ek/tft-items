@@ -1,29 +1,4 @@
-# tft
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# TFT 
+First attempt to Vue.js
+Simple site who show items from Tactical Teamfight in League of Legends.
+Just type item name and look what you need to make it. 

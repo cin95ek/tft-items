@@ -87,25 +87,25 @@ export default {
 
 methods: {
 handleInput: debounce(function() {
-  
-    let input = this.searchInput.toUpperCase()
+  this.$emit('changed', '1')
+    if (this.searchInput == "") {
+      this.results.length = 0; 
+    } else {
+      let input = this.searchInput.toUpperCase()
     
     this.results.length = 0; 
   for (let index = 0; index <= this.items.length; index++) {
       let temp = this.items[index].name;
-      
-      temp = temp.toUpperCase();
-      
-      
+      let temp1 = this.items[index].item1.toUpperCase();
+       let temp2 = this.items[index].item2.toUpperCase();
+      temp = temp.toUpperCase(); 
      
-     if (temp.includes(input)) {
+     if (temp.includes(input) || temp1.includes(input) || temp2.includes(input) ) {
          this.results.push(this.items[index]);
          
-     }
-      
+     }    
   }
-    
-    
+    }   
 }, 500),
 
 

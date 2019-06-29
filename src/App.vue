@@ -1,8 +1,12 @@
 <template>
   <div id="app">
     <img alt="TFT" src="./assets/TFT.png">
-    <Claim/>
-    <Search/>
+    
+    <transition name="fade">
+    <Claim v-if="steep === 0"/>
+    </transition>
+    
+    <Search @changed="onChange"/>
   </div>
 </template>
 
@@ -15,7 +19,24 @@ export default {
     Claim,
     Search,
   },
+
+  data(){
+    return{
+      steep: 0
+    }
+  },
+
+
+   methods: {
+    onChange (value) {
+      
+      this.steep = value;
+     
+    }
+  }
 }
+
+
 </script>
 
 <style scoped>
@@ -29,8 +50,22 @@ export default {
   justify-content: center;
 }
 
+
+
 img{
   max-width: 50%;
   
+}
+
+@media (min-width: 768px){
+  img{
+    max-width: 30%;
+  }
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>

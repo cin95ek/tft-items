@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <h1>Just type what item you want</h1>
+    
+    <h1>Just type what you have or what you want</h1>
   </div>
 </template>
 
@@ -33,5 +34,10 @@ li {
 }
 a {
   color: #42b983;
+}
+
+img{
+  max-width: 50%;
+  height: auto;
 }
 </style>

@@ -1,0 +1,10 @@
+[
+    {"name":"B.F. Sword", "description":"20 Attack Damage.", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/item/1038.png"}, 
+    {"name":"Recurve Bow", "description":"20% Attack Speed.", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/item/1043.png"}, 
+    {"name":"Chain Vest", "description":"20 Armor.", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/item/1031.png"}, 
+    {"name":"Negatron Cloak", "description":"20 Magic Resist.", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/item/1057.png"}, 
+    {"name":"Needlessy Large Rod", "description":"20% Spell Damage.", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/item/1058.png"}, 
+    {"name":"Tear of the Goddess", "description":"20 Starting Mana.", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/item/3070.png"}, 
+    {"name":"Giant`s Belt", "description":"200 Health", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/item/1011.png"}, 
+    {"name":"Spatula", "description":"Use to craft special items.", "image":"https://mruszkiewicz.pl/img/spatula.png"} 
+]

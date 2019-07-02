@@ -38,7 +38,7 @@ export default {
 
 methods: {
 handleInput: debounce(function() {
-  this.$emit('changed', '1')
+  this.$emit('changed', '2')
     if (this.searchInput == "") {
       this.results.length = 0; 
     } else {

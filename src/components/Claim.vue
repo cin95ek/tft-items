@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
     
-    <h1>Just type what you have or what you want</h1>
+    <h1>Just type item name or simply pick from list.</h1>
+    <p>If you choose one method, the second one will disappear</p>
   </div>
 </template>
 

@@ -1,8 +1,7 @@
 
 [
       {"name":"Blade of the Ruined King", "description":"Wearer is also a Blademaster.", "item1":"Spatula", "item2":"Recurve Bow", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/item/3153.png"}, 
-      {"name":"Bloodthirster", "description":"35% Lifesteal", "item1":"B.F. Sword", "item2":"Negatron Cloak", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/item/3072.png"}, 
-      {"name":"Brawler's Gloves", "description":"Wearer is also a Brawler.", "item1":"Spatula", "item2":"Negatron Cloak", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/item/1051.png"}, 
+      {"name":"Bloodthirster", "description":"35% Lifesteal", "item1":"B.F. Sword", "item2":"Negatron Cloak", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/item/3072.png"},  
       {"name":"Cursed Blade", "description":"Attacks have a low chance to Reduce enemy's star level by 1", "item1":"Negatron Cloak", "item2":"Recurve Bow", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/item/3137.png"}, 
       {"name":"Darkin", "description":"Wearer is also a Demon.", "item1":"Spatula", "item2":"Tear of the Goddess", "image":"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AatroxR.png"}, 
       {"name":"Dragon's Claw", "description":"Gain 83% resistance to magic damage.", "item1":"Negatron Cloak", "item2":"Negatron Cloak", "image":"https://mruszkiewicz.pl/img/DragonsClaw.png"}, 

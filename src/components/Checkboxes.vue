@@ -54,11 +54,11 @@ data(){
 
 
 methods:{
-handleClick: function(event) {
+handleClick: function() {
   this.$emit('changed', '1') 
   let chose = this.picked.toUpperCase();
   this.results.length = 0;
-  console.log(chose)
+  
   for (let index = 0; index < items.length; index++) {
     let temp1 = this.items[index].item1.toUpperCase();
     let temp2 = this.items[index].item2.toUpperCase();
@@ -70,7 +70,7 @@ handleClick: function(event) {
     }
     
   }
-console.log(this.results)
+
 }
 },
 mounted: function () {
